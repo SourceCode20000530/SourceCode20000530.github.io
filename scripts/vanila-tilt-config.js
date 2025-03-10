@@ -1,4 +1,5 @@
 alert("Hi");
+console.log("HI");
 VanillaTilt.init(document.querySelectorAll(".skillsBox"), {
     max: 25,
     speed: 400,
