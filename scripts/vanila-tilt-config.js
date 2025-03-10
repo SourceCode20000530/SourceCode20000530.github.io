@@ -11,4 +11,5 @@ if (!headerElement.classList.contains('sticky')) {
 else {
     VanillaTilt.init(document.querySelectorAll(""), {
     });
+    alert("Hello");
 }
