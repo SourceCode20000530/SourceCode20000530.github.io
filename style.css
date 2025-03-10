@@ -882,6 +882,7 @@ section {
     }
     .about {
         padding: 100px 50px;
+		background: none;
     }
     .contact .contentBox {
         flex-direction: column;
