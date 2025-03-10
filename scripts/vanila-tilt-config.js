@@ -1,3 +1,4 @@
+alert("Hi");
 VanillaTilt.init(document.querySelectorAll(".skillsBox"), {
     max: 25,
     speed: 400,
@@ -5,4 +6,3 @@ VanillaTilt.init(document.querySelectorAll(".skillsBox"), {
     "max-glare": 1
 });
 VanillaTilt.destroy();
-alert("Hi");
