@@ -4,3 +4,4 @@ VanillaTilt.init(document.querySelectorAll(".skillsBox"), {
     glare: true,
     "max-glare": 1
 });
+VanillaTilt.destroy();
