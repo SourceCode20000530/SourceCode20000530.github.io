@@ -774,8 +774,6 @@ section {
             url(images/computer_office.jpg);
         background-size: cover;
         background-position: center;
-        /* background-attachment: fixed; */
-
     }
     .about::after {
         content: '';
@@ -811,7 +809,6 @@ section {
     }
     .projects .contentBox .projectBox {
         background: #03e9f4;
-        /* color: #050801; */
         box-shadow: 0 0 5px #03e9f4,
         0 0 10px #03e9f4,
         0 0 25px #03e9f4;
@@ -828,6 +825,7 @@ section {
     }
     .projects .contentBox .projectBox .txtBox h4,
     .projects .contentBox .projectBox .txtBox p,
+    .projects .contentBox .projectBox .txtBox p, a,
     .projects .contentBox .projectBox .txtBox a {
         color: #000;
     }
