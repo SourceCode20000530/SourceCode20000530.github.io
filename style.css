@@ -825,7 +825,7 @@ section {
     }
     .projects .contentBox .projectBox .txtBox h4,
     .projects .contentBox .projectBox .txtBox p,
-    .projects .contentBox .projectBox .txtBox p, a,
+    .projects .contentBox .projectBox .txtBox p a,
     .projects .contentBox .projectBox .txtBox a {
         color: #000;
     }
