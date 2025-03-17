@@ -829,6 +829,12 @@ section {
     .projects .contentBox .projectBox .txtBox a {
         color: #000;
     }
+    .projects .contentBox .projectBox:hover .txtBox h4,
+    .projects .contentBox .projectBox:hover .txtBox p,
+    .projects .contentBox .projectBox:hover .txtBox p a,
+    .projects .contentBox .projectBox:hover .txtBox a {
+        
+    }
     .contact {
         width: 100%;
         height: 100vh;
