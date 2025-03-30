@@ -617,7 +617,7 @@ section {
     width: 100%;
     height: 100%;
     padding: 100px;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 1.0) 50%), url(images/Gyeongju.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 1.0) 50%), url(./images/Gyeongju.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -849,7 +849,7 @@ section {
         padding: 100px;
         width: 100%;
         height: 100vh;
-        background: url(images/Gyeongju.jpg);
+        background: url(./images/Gyeongju.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
