@@ -683,12 +683,6 @@ section {
     text-shadow: 0 0 5px #88E2FF;
 }
 @media (max-width: 1030px) {
-    * {
-        touch-action: manipulation;
-    }
-    *:hover {
-        pointer-events: none;
-    }
     header,
     header.sticky {
         padding: 20px 50px;
