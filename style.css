@@ -62,14 +62,6 @@ header ul li a span {
     position: absolute;
     display: block;
 }
-header ul li a:hover span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #88E2FF);
-    animation: HeaderMenuButtonAnimate1 1s linear infinite; 
-}
 @keyframes HeaderMenuButtonAnimate1 {
     0% {
         left: -100%;
@@ -77,15 +69,6 @@ header ul li a:hover span:nth-child(1) {
     50%, 100% {
         left: 100%;
     }
-}
-header ul li a:hover span:nth-child(2) {
-    top: -100%;
-    right: 0%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #88E2FF);
-    animation: HeaderMenuButtonAnimate2 1s linear infinite;
-    animation-delay: 0.25s;
 }
 @keyframes HeaderMenuButtonAnimate2 {
     0% {
@@ -95,15 +78,6 @@ header ul li a:hover span:nth-child(2) {
         top: 100%;
     }
 }
-header ul li a:hover span:nth-child(3) {
-    bottom: 0%;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #88E2FF);
-    animation: HeaderMenuButtonAnimate3 1s linear infinite;
-    animation-delay: 0.5s;
-}
 @keyframes HeaderMenuButtonAnimate3 {
     0% {
         right: -100%;
@@ -111,15 +85,6 @@ header ul li a:hover span:nth-child(3) {
     50%, 100% {
         right: 100%;
     }
-}
-header ul li a:hover span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #88E2FF);
-    animation: HeaderMenuButtonAnimate4 1s linear infinite;
-    animation-delay: 0.75s;
 }
 @keyframes HeaderMenuButtonAnimate4 {
     0% {
@@ -175,12 +140,6 @@ section {
     overflow: hidden;
     transition: 0.2s;
 }
-.btn:hover {
-    background: #88E2FF;
-    color: #000;
-    box-shadow: 0 0 10px #88E2FF;
-    transition-delay: 0.2s;
-}
 .btn:before {
     content: '';
     position: absolute;
@@ -193,11 +152,6 @@ section {
     transition: 0.2s;
     transition-delay: 0.2s;
 }
-.btn:hover:before {
-    width: 100%;
-    height: 100%;
-    transition-delay: 0s;
-}
 .btn:after {
     content: '';
     position: absolute;
@@ -209,11 +163,6 @@ section {
     border-right: 2px solid #88E2FF;
     transition: 0.2s;
     transition-delay: 0.2s;
-}
-.btn:hover::after {
-    width: 100%;
-    height: 100%;
-    transition-delay: 0s;
 }
 .banner .worldMap {
     position: absolute;
@@ -402,18 +351,6 @@ section {
     opacity: 0;
     transition: 0.5s;
 }
-.skills .contentBox .skillsBox:hover {
-    box-shadow: 0 0 5px #88E2FF,
-                0 0 10px #88E2FF,
-                0 0 15px #88E2FF;
-}
-.skills .contentBox .skillsBox:hover .headingBox {
-    transform: translateY(-40%);
-}
-.skills .contentBox .skillsBox:hover .txtBox {
-    transform: translate(0%);
-    opacity: 1;
-}
 .skills .contentBox .skillsBox .txtBox p {
     font-size: 1.2em;
     color: #88E2FF;
@@ -454,14 +391,6 @@ section {
 .projects .contentBox .projectBox span {
     position: absolute;
     display: block;
-}
-
-.projects .contentBox .projectBox:hover {
-    background: #03e9f4;
-    box-shadow: 0 0 5px #03e9f4,
-    0 0 25px #03e9f4,
-    0 0 50px #03e9f4,
-    0 0 200px #03e9f4;
 }
 .projects.contentBox .projectBox span {
     position: absolute;
@@ -565,22 +494,6 @@ section {
     opacity: 0;
     transition: 0.5s;
 }
-.projects .contentBox .projectBox:hover .headingBox {
-    transform: translateY(0);
-}
-.projects .contentBox .projectBox:hover .headingBox h3 {
-    color: #000;
-}
-.projects .contentBox .projectBox:hover .txtBox {
-    transform: translate(0px);
-    opacity: 1;
-}
-.projects .contentBox .projectBox:hover .txtBox h4,
-.projects .contentBox .projectBox:hover .txtBox p,
-.projects .contentBox .projectBox:hover .txtBox p a,
-.projects .contentBox .projectBox:hover .txtBox a {
-    color: #000;
-}
 .projects .contentBox .projectBox .txtBox h4 {
     text-align: center;
     font-size: 1.5em;
@@ -623,7 +536,7 @@ section {
     background-position: center;
     overflow: hidden;
 }
-/* .contact::before {
+.contact::before {
     content: '';
     position: absolute;
     top: 0;
@@ -633,7 +546,7 @@ section {
     background: #88E2FF;
     z-index: 0;
     mix-blend-mode: color;
-} */
+}
 .contact .contentBox {
     position: relative;
     display: flex;
@@ -682,6 +595,96 @@ section {
     font-size: 1.2em;
     text-shadow: 0 0 5px #88E2FF;
 }
+@media (hover:hover) and (pointer:fine) {
+    header ul li a:hover span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #88E2FF);
+        animation: HeaderMenuButtonAnimate1 1s linear infinite; 
+    }
+    header ul li a:hover span:nth-child(2) {
+        top: -100%;
+        right: 0%;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, #88E2FF);
+        animation: HeaderMenuButtonAnimate2 1s linear infinite;
+        animation-delay: 0.25s;
+    }
+    header ul li a:hover span:nth-child(3) {
+        bottom: 0%;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, transparent, #88E2FF);
+        animation: HeaderMenuButtonAnimate3 1s linear infinite;
+        animation-delay: 0.5s;
+    }
+    header ul li a:hover span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, #88E2FF);
+        animation: HeaderMenuButtonAnimate4 1s linear infinite;
+        animation-delay: 0.75s;
+    }
+    .btn:hover {
+        background: #88E2FF;
+        color: #000;
+        box-shadow: 0 0 10px #88E2FF;
+        transition-delay: 0.2s;
+    }
+    .btn:hover:before {
+        width: 100%;
+        height: 100%;
+        transition-delay: 0s;
+    }
+    .btn:hover::after {
+        width: 100%;
+        height: 100%;
+        transition-delay: 0s;
+    }
+    .skills .contentBox .skillsBox:hover {
+        box-shadow: 0 0 5px #88E2FF,
+                    0 0 10px #88E2FF,
+                    0 0 15px #88E2FF;
+    }
+    .skills .contentBox .skillsBox:hover .headingBox {
+        transform: translateY(-40%);
+    }
+    .skills .contentBox .skillsBox:hover .txtBox {
+        transform: translate(0%);
+        opacity: 1;
+    }
+    .projects .contentBox .projectBox:hover {
+        background: #03e9f4;
+        box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+    }
+    .projects .contentBox .projectBox:hover .headingBox {
+        transform: translateY(0);
+    }
+    .projects .contentBox .projectBox:hover .headingBox h3 {
+        color: #000;
+    }
+    .projects .contentBox .projectBox:hover .txtBox {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    .projects .contentBox .projectBox:hover .txtBox h4,
+    .projects .contentBox .projectBox:hover .txtBox p,
+    .projects .contentBox .projectBox:hover .txtBox p a,
+    .projects .contentBox .projectBox:hover .txtBox a {
+        color: #000;
+    }
+}
+
+
 @media (max-width: 1030px) {
     header,
     header.sticky {
@@ -742,12 +745,6 @@ section {
         background: #88E2FF;
         color: #000;
         box-shadow: 0 0 10px #88E2FF;
-    }
-    .btn:hover {
-        background: #88E2FF;
-        color: #000;
-        box-shadow: 0 0 10px #88E2FF;
-        transition-delay: 0.2s;
     }
     .btn:before {
         width: 100%;
@@ -828,14 +825,6 @@ section {
     .projects .contentBox .projectBox .txtBox a {
         color: #000;
     }
-
-    .projectBox .contentBox .projectBox:hover .headingBox {
-        pointer-events: none;
-    }
-    .projectBox .contentBox .projectBox:hover .txtBox {
-        pointer-events: none;
-    }
-
     .contact {
         width: 100%;
         height: 100vh;
