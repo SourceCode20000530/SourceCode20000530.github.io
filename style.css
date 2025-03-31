@@ -379,25 +379,40 @@ section {
     overflow: hidden;
     transition: 0.2s;
 }
-.projects .contentBox .projectBox:nth-child(2) {
-    filter: hue-rotate(230deg);
-}
-.projects .contentBox .projectBox:nth-child(3) {
-    filter: hue-rotate(290deg);
-}
-.projects .contentBox .projectBox:nth-child(4) {
-    /* filter: hue-rotate(100deg); */
-}
 .projects .contentBox .projectBox span {
     position: absolute;
     display: block;
 }
-.projects .contentBox .projectBox span:nth-child(1) {
+.projects .contentBox .projectBox:nth-child(1) span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: projectBoxAnimate1 1s linear infinite; 
+}
+.projects .contentBox .projectBox:nth-child(2) span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #f4da03);
+    animation: projectBoxAnimate1 1s linear infinite; 
+}
+.projects .contentBox .projectBox:nth-child(3) span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #1df403);
+    animation: projectBoxAnimate1 1s linear infinite; 
+}
+.projects .contentBox .projectBox:nth-child(4) span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #e503f4);
     animation: projectBoxAnimate1 1s linear infinite; 
 }
 @keyframes projectBoxAnimate1 {
@@ -408,12 +423,39 @@ section {
         left: 100%;
     }
 }
-.projects .contentBox .projectBox span:nth-child(2) {
+.projects .contentBox .projectBox:nth-child(1) span:nth-child(2) {
     top: -100%;
     right: 0%;
     width: 2px;
     height: 100%;
     background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: projectBoxAnimate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+.projects .contentBox .projectBox:nth-child(2) span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #f4da03);
+    animation: projectBoxAnimate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+.projects .contentBox .projectBox:nth-child(3) span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #1df403);
+    animation: projectBoxAnimate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+.projects .contentBox .projectBox:nth-child(4) span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #e503f4);
     animation: projectBoxAnimate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -425,12 +467,39 @@ section {
         top: 100%;
     }
 }
-.projects .contentBox .projectBox span:nth-child(3) {
+.projects .contentBox .projectBox:nth-child(1) span:nth-child(3) {
     bottom: 0%;
     right: -100%;
     width: 100%;
     height: 2px;
     background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: projectBoxAnimate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+.projects .contentBox .projectBox:nth-child(2) span:nth-child(3) {
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #f4da03);
+    animation: projectBoxAnimate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+.projects .contentBox .projectBox:nth-child(3) span:nth-child(3) {
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #1df403);
+    animation: projectBoxAnimate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+.projects .contentBox .projectBox:nth-child(4) span:nth-child(3) {
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #e503f4);
     animation: projectBoxAnimate3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -442,12 +511,39 @@ section {
         right: 100%;
     }
 }
-.projects .contentBox .projectBox span:nth-child(4) {
+.projects .contentBox .projectBox:nth-child(1) span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
     height: 100%;
     background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: projectBoxAnimate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+.projects .contentBox .projectBox:nth-child(2) span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #f4da03);
+    animation: projectBoxAnimate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+.projects .contentBox .projectBox:nth-child(3) span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #1df403);
+    animation: projectBoxAnimate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+.projects .contentBox .projectBox:nth-child(4) span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #e503f4);
     animation: projectBoxAnimate4 1s linear infinite;
     animation-delay: 0.75s;
 }
@@ -470,10 +566,31 @@ section {
     transform: translateY(160px);
     transition: 0.5s;
 }
-.projects .contentBox .projectBox .headingBox h3 {
+.projects .contentBox .projectBox:nth-child(1) .headingBox h3 {
     font-size: 2em;
-    color: #88E2FF;
-    text-shadow: 0 0 5px #88E2FF;
+    color: #03e9f4;
+    text-shadow: 0 0 5px #03e9f4;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+.projects .contentBox .projectBox:nth-child(2) .headingBox h3 {
+    font-size: 2em;
+    color: #f4da03;
+    text-shadow: 0 0 5px #f4da03;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+.projects .contentBox .projectBox:nth-child(3) .headingBox h3 {
+    font-size: 2em;
+    color: #1df403;
+    text-shadow: 0 0 5px #1df403;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+.projects .contentBox .projectBox:nth-child(4) .headingBox h3 {
+    font-size: 2em;
+    color: #e503f4;
+    text-shadow: 0 0 5px #e503f4;
     padding: 5px;
     letter-spacing: 2px;
 }
@@ -490,32 +607,125 @@ section {
     opacity: 0;
     transition: 0.5s;
 }
-.projects .contentBox .projectBox .txtBox h4 {
+.projects .contentBox .projectBox:nth-child(1) .txtBox h4 {
     text-align: center;
     font-size: 1.5em;
-    color: #88E2FF;
+    color: #03e9f4;
     padding: 10px 0;
-    text-shadow: 0 0 5px #88E2FF;
+    text-shadow: 0 0 5px #03e9f4;
     letter-spacing: 2px;
 }
-.projects .contentBox .projectBox .txtBox p {
-    color: #88E2FF;
+.projects .contentBox .projectBox:nth-child(2) .txtBox h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #f4da03;
+    padding: 10px 0;
+    text-shadow: 0 0 5px #f4da03;
+    letter-spacing: 2px;
+}
+.projects .contentBox .projectBox:nth-child(3) .txtBox h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #1df403;
+    padding: 10px 0;
+    text-shadow: 0 0 5px #1df403;
+    letter-spacing: 2px;
+}
+.projects .contentBox .projectBox:nth-child(4) .txtBox h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e503f4;
+    padding: 10px 0;
+    text-shadow: 0 0 5px #e503f4;
+    letter-spacing: 2px;
+}
+.projects .contentBox .projectBox:nth-child(1) .txtBox p {
+    color: #03e9f4;
     font-size: 1.1em;
     letter-spacing: 2px;
     padding: 0 10px;
     margin-bottom: 1.1em;
 }
-.projects .contentBox .projectBox .txtBox p a {
-    color: #88E2FF;
+.projects .contentBox .projectBox:nth-child(2) .txtBox p {
+    color: #f4da03;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    margin-bottom: 1.1em;
+}
+.projects .contentBox .projectBox:nth-child(3) .txtBox p {
+    color: #1df403;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    margin-bottom: 1.1em;
+}
+.projects .contentBox .projectBox:nth-child(4) .txtBox p {
+    color: #e503f4;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    margin-bottom: 1.1em;
+}
+.projects .contentBox .projectBox:nth-child(1) .txtBox p a {
+    color: #03e9f4;
     font-size: 1.1em;
     letter-spacing: 2px;
     text-decoration: none;
 }
-.projects .contentBox .projectBox .txtBox a {
+.projects .contentBox .projectBox:nth-child(2) .txtBox p a {
+    color: #f4da03;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.projects .contentBox .projectBox:nth-child(3) .txtBox p a {
+    color: #1df403;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.projects .contentBox .projectBox:nth-child(4) .txtBox p a {
+    color: #e503f4;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.projects .contentBox .projectBox:nth-child(1) .txtBox a {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: #88E2FF;
+    color: #03e9f4;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.projects .contentBox .projectBox:nth-child(2) .txtBox a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #f4da03;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.projects .contentBox .projectBox:nth-child(3) .txtBox a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #1df403;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.projects .contentBox .projectBox:nth-child(4) .txtBox a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #e503f4;
     font-size: 1.1em;
     letter-spacing: 2px;
     margin-top: auto;
@@ -655,12 +865,33 @@ section {
         transform: translate(0%);
         opacity: 1;
     }
-    .projects .contentBox .projectBox:hover {
+    .projects .contentBox .projectBox:nth-child(1):hover {
         background: #03e9f4;
         box-shadow: 0 0 5px #03e9f4,
         0 0 25px #03e9f4,
         0 0 50px #03e9f4,
         0 0 200px #03e9f4;
+    }
+    .projects .contentBox .projectBox:nth-child(2):hover {
+        background: #f4da03;
+        box-shadow: 0 0 5px #f4da03,
+        0 0 25px #f4da03,
+        0 0 50px #f4da03,
+        0 0 200px #f4da03;
+    }
+    .projects .contentBox .projectBox:nth-child(3):hover {
+        background: #1df403;
+        box-shadow: 0 0 5px #1df403,
+        0 0 25px #1df403,
+        0 0 50px #1df403,
+        0 0 200px #1df403;
+    }
+    .projects .contentBox .projectBox:nth-child(4):hover {
+        background: #e503f4;
+        box-shadow: 0 0 5px #e503f4,
+        0 0 25px #e503f4,
+        0 0 50px #e503f4,
+        0 0 200px #e503f4;
     }
     .projects .contentBox .projectBox:hover .headingBox {
         transform: translateY(0);
@@ -799,26 +1030,67 @@ section {
         transform: translateY(0);
         opacity: 1;
     }
-    .projects .contentBox .projectBox {
+    .projects .contentBox .projectBox:nth-child(1) {
         background: #03e9f4;
         box-shadow: 0 0 5px #03e9f4,
-        0 0 10px #03e9f4,
-        0 0 15px #03e9f4;
+        0 0 25px #03e9f4;
+    }
+    .projects .contentBox .projectBox:nth-child(2){
+        background: #f4da03;
+        box-shadow: 0 0 5px #f4da03,
+        0 0 25px #f4da03;
+    }
+    .projects .contentBox .projectBox:nth-child(3) {
+        background: #1df403;
+        box-shadow: 0 0 5px #1df403,
+        0 0 25px #1df403;
+    }
+    .projects .contentBox .projectBox:nth-child(4) {
+        background: #e503f4;
+        box-shadow: 0 0 5px #e503f4,
+        0 0 25px #e503f4;
     }
     .projects .contentBox .projectBox .headingBox {
         transform: translateY(0);
     }
-    .projects .contentBox .projectBox .headingBox h3 {
+    .projects .contentBox .projectBox:nth-child(1) .headingBox h3 {
+        color: #000;
+    }
+    .projects .contentBox .projectBox:nth-child(2) .headingBox h3 {
+        color: #000;
+    }
+    .projects .contentBox .projectBox:nth-child(3) .headingBox h3 {
+        color: #000;
+    }
+    .projects .contentBox .projectBox:nth-child(4) .headingBox h3 {
         color: #000;
     }
     .projects .contentBox .projectBox .txtBox {
         transform: translate(0px);
         opacity: 1;
     }
-    .projects .contentBox .projectBox .txtBox h4,
-    .projects .contentBox .projectBox .txtBox p,
-    .projects .contentBox .projectBox .txtBox p a,
-    .projects .contentBox .projectBox .txtBox a {
+    .projects .contentBox .projectBox:nth-child(1) .txtBox h4,
+    .projects .contentBox .projectBox:nth-child(1) .txtBox p,
+    .projects .contentBox .projectBox:nth-child(1) .txtBox p a,
+    .projects .contentBox .projectBox:nth-child(1) .txtBox a {
+        color: #000;
+    }
+    .projects .contentBox .projectBox:nth-child(2) .txtBox h4,
+    .projects .contentBox .projectBox:nth-child(2) .txtBox p,
+    .projects .contentBox .projectBox:nth-child(2) .txtBox p a,
+    .projects .contentBox .projectBox:nth-child(2) .txtBox a {
+        color: #000;
+    }
+    .projects .contentBox .projectBox:nth-child(3) .txtBox h4,
+    .projects .contentBox .projectBox:nth-child(3) .txtBox p,
+    .projects .contentBox .projectBox:nth-child(3) .txtBox p a,
+    .projects .contentBox .projectBox:nth-child(3) .txtBox a {
+        color: #000;
+    }
+    .projects .contentBox .projectBox:nth-child(4) .txtBox h4,
+    .projects .contentBox .projectBox:nth-child(4) .txtBox p,
+    .projects .contentBox .projectBox:nth-child(4) .txtBox p a,
+    .projects .contentBox .projectBox:nth-child(4) .txtBox a {
         color: #000;
     }
     .contact {
