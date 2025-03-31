@@ -4,11 +4,13 @@ let menu = document.querySelector('.menu');
 let bodyElement = document.querySelector('body');
 
 let isMenuActive = () => {
-    if (menu.classList.contains('active')) {
-        bodyElement.style.overflow = 'hidden';
-    }
-    else {
-        bodyElement.style.overflow = 'scroll';
+    if (window.innerWidth <= 1030) {
+        if (menu.classList.contains('active')) {
+            bodyElement.style.overflow = 'hidden';
+        }
+        else {
+            bodyElement.style.overflow = 'scroll';
+        }
     }
 }
         
