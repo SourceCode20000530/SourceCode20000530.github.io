@@ -386,13 +386,9 @@ section {
     filter: hue-rotate(290deg);
 }
 .projects .contentBox .projectBox:nth-child(4) {
-    filter: hue-rotate(100deg);
+    /* filter: hue-rotate(100deg); */
 }
 .projects .contentBox .projectBox span {
-    position: absolute;
-    display: block;
-}
-.projects.contentBox .projectBox span {
     position: absolute;
     display: block;
 }
