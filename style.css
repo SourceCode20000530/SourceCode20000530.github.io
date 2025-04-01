@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Tektur:wght@400..900&display=swap');
+/*
+    Font: Tektur
+    Designed by Adam Jagosz 
+    https://fonts.google.com/specimen/Tektur
+*/
 * {
     margin: 0;
     padding: 0;
@@ -374,8 +379,8 @@ section {
 .projects .contentBox .projectBox {
     position: relative;
     margin: 50px;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -565,32 +570,32 @@ section {
     flex-direction: column;
     padding: 10px 0;
 
-    transform: translateY(160px);
+    transform: translateY(200px);
     transition: 0.5s;
 }
 .projects .contentBox .projectBox:nth-child(1) .headingBox h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #03e9f4;
     text-shadow: 0 0 5px #03e9f4;
     padding-top: 5px;
     letter-spacing: 2px;
 }
 .projects .contentBox .projectBox:nth-child(2) .headingBox h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #f4da03;
     text-shadow: 0 0 5px #f4da03;
     padding-top: 5px;
     letter-spacing: 2px;
 }
 .projects .contentBox .projectBox:nth-child(3) .headingBox h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #1df403;
     text-shadow: 0 0 5px #1df403;
     padding-top: 5px;
     letter-spacing: 2px;
 }
 .projects .contentBox .projectBox:nth-child(4) .headingBox h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #e503f4;
     text-shadow: 0 0 5px #e503f4;
     padding-top: 5px;
@@ -609,17 +614,11 @@ section {
     opacity: 0;
     transition: 0.5s;
 }
-.projectBox .contentBox .projectBox .txtBox h4 {
-    text-align: center;
-    font-size: 1.5em;
-    padding: 10px 0;
-    letter-spacing: 2px;
-}
 .projects .contentBox .projectBox:nth-child(1) .txtBox h4 {
     color: #03e9f4;
     text-shadow: 0 0 5px #03e9f4;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 5px;
     letter-spacing: 2px;
 }
@@ -627,7 +626,7 @@ section {
     color: #f4da03;
     text-shadow: 0 0 5px #f4da03;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 5px;
     letter-spacing: 2px;
 }
@@ -635,7 +634,7 @@ section {
     color: #1df403;
     text-shadow: 0 0 5px #1df403;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 5px;
     letter-spacing: 2px;
 }
@@ -643,7 +642,7 @@ section {
     color: #e503f4;
     text-shadow: 0 0 5px #e503f4;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 5px;
     letter-spacing: 2px;
 }
@@ -655,28 +654,28 @@ section {
 }
 .projects .contentBox .projectBox:nth-child(1) .txtBox p {
     color: #03e9f4;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 2px;
     padding: 0 10px;
     margin-bottom: 1em;
 }
 .projects .contentBox .projectBox:nth-child(2) .txtBox p {
     color: #f4da03;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 2px;
     padding: 0 10px;
     margin-bottom: 1em;
 }
 .projects .contentBox .projectBox:nth-child(3) .txtBox p {
     color: #1df403;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 2px;
     padding: 0 10px;
     margin-bottom: 1em;
 }
 .projects .contentBox .projectBox:nth-child(4) .txtBox p {
     color: #e503f4;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 2px;
     padding: 0 10px;
     margin-bottom: 1em;
