@@ -730,20 +730,20 @@ section {
     color: #88E2FF;
     font-weight: 500;
     margin-bottom: 5px;
-    font-size: 1.6em;
+    font-size: 1.5em;
     letter-spacing: 2px;
     text-shadow: 0 0 5px #88E2FF;
 }
 .contact .contentBox .info .infoBox .txtBox a {
     color: #88E2FF;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
 }
 .contact .contentBox .info .infoBox .txtBox p {
     color: #88E2FF;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
 }
 .copyright {
@@ -1203,19 +1203,14 @@ section {
         padding: 20px 0;
     }
     .contact .contentBox .info .infoBox .txtBox h3 {
-        color: #88E2FF;
-        font-weight: 500;
-        margin-bottom: 5px;
-        font-size: 1.6em;
-        letter-spacing: 2px;
-        text-shadow: 0 0 5px #88E2FF;
+        font-size: 1.4em;
     }
     .contact .contentBox .info .infoBox .txtBox a {
-        color: #88E2FF;
-        text-decoration: none;
-        font-size: 1.2em;
-        font-weight: 300;
+        font-size: 1em;
     }
+    .contact .contentBox .info .infoBox .txtBox p {
+        font-size: 1em;
+    }  
 }
 @media (max-width: 350px) {
     .banner .worldMap {
@@ -1264,5 +1259,5 @@ section {
         transition: 0.5s;
         margin-top: auto;
         margin-bottom: 20px;;
-    }
+    } 
 }
