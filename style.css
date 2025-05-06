@@ -379,8 +379,8 @@ section {
 .projects .contentBox .projectBox {
     position: relative;
     margin: 50px;
-    width: 400px;
-    height: 500px;
+    width: 450px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -569,7 +569,7 @@ section {
     align-items: center;
     flex-direction: column;
     padding: 10px 0;
-    transform: translateY(200px);
+    transform: translateY(225px);
     transition: 0.5s;
 }
 .projects .contentBox .projectBox .headingBox h3 {
@@ -602,7 +602,7 @@ section {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    transform: translateY(400px);
+    transform: translateY(450px);
     opacity: 0;
     transition: 0.5s;
 }
